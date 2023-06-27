@@ -1,0 +1,106 @@
+section{
+    background: #9780bd;
+    padding-bottom: 150px;
+    padding-top: 50px;
+}    
+
+
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 16px;
+    max-width: 463px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+.tel-mail{
+    display: flex;
+    text-align: left;
+    padding-top: 40px;
+    font-size: 22px;
+    gap: 50px;
+}
+
+.tel-background{
+    background-image: url("images/Rectangle 59.svg");
+    height: 100%s;
+}
+.mail-background{
+    background-image: url("images/Rectangle 64.svg");
+}
+
+
+
+
+
+.footer-end{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    margin-top: -80px;
+    border-top: 1px solid #FFFFFF;
+
+}
+.copyright{
+    align-items: center;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+.form{
+    margin-top: 100px;
+}
+.form-row{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+textarea{
+    background: #9780bd;
+    border: none;
+    resize: none;
+    border-bottom: 1px solid #FFFFFF;
+    outline: none;
+    height: 110px;
+}
+input{
+    background: #9780bd;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    outline: none;
+    height: 40px;
+}
+
